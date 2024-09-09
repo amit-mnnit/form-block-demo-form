@@ -298,6 +298,8 @@ main .form form .item-remove span::after{
 
 main .form form .item-add{
   overflow: unset;
+  display: flex;
+  justify-content: center;
 }
 
 main .file-wrapper .file-description button {
