@@ -285,11 +285,19 @@ main .form .file-description .file-description-name {
   flex: 1;
 }
 
-main .form form .item-remove span {
-    display: block;
-    width: 20px;
-    height: 20px;
-    background: url('/icons/delete.svg') no-repeat;
+main .form form .item-remove span::after{
+    content: '--';
+    color: var(--form-button-color);
+    background: var(--form-button-background-color);
+    font-size: 1em;
+    letter-spacing: -0.1em;
+    padding: 0px 6px;
+    border-radius: 3px;
+    display: inline-block;
+}
+
+main .form form .item-add{
+  overflow: unset;
 }
 
 main .file-wrapper .file-description button {
