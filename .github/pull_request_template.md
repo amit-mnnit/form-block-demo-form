@@ -3,5 +3,5 @@ Please always provide the [GitHub issue(s)](../issues) your PR is for, as well a
 Fix #<gh-issue-id>
 
 Test URLs:
-- Before: https://main--aem-boilerplate-forms--adobe-rnd.hlx.live/
-- After: https://{branch}--aem-boilerplate-forms--adobe-rnd.hlx.live/
+- Before: https://main--form-block-demo-form--amit-mnnit.hlx.live/
+- After: https://{branch}--form-block-demo-form--amit-mnnit.hlx.live/
